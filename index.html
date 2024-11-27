@@ -33,16 +33,16 @@
               <i class="fa fa-times select-none pointer-events-none"></i>
             </button>
           </li>
-          <li>
+          <li class="hover:text-primary-500">
             <a href="#"> Product </a>
           </li>
-          <li>
+          <li class="hover:text-primary-500">
             <a href="#"> Customers </a>
           </li>
-          <li>
+          <li class="hover:text-primary-500">
             <a href="#"> Pricing </a>
           </li>
-          <li>
+          <li class="hover:text-primary-500">
             <a href="#"> Resources </a>
           </li>
           <li class="w-full sm:hidden gap-2 flex justify-center absolute bottom-0 left-0 p-3">
@@ -55,13 +55,14 @@
           </li>
         </ul>
         <div class="flex items-center gap-4">
-          <a href="#" class="max-sm:hidden px-7 border-2 rounded py-2 font-bold">
+          <a href="#" class="max-sm:hidden px-7 border-2 rounded py-2 font-bold hover:bg-slate-400">
             Sign In
           </a>
           <a href="#" class="max-sm:hidden btn-primary">
             Sign Up
           </a>
-          <button id="dark-mode" class="w-9 h-9 flex items-center justify-center rounded-full text-primary-500 text-xl bg-slate-100">
+          <button id="dark-mode"
+            class="w-9 h-9 flex items-center hover:scale-110 justify-center rounded-full text-primary-500 text-xl bg-slate-100">
             <i class="fa transform rotate-180 fa-circle-half-stroke"></i>
           </button>
           <button class="text-2xl lg:hidden" id="open-nav">
@@ -76,9 +77,9 @@
       <p class="max-w-[350px]">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way
         to imagine your next user experience.</p>
       <div class="space-x-5">
-        <button class="bg-primary-500 rounded text-white px-7 py-2">Get Started</button>
-        <button class="text-primary-500 space-x-1">
-          <i class="fa fa-play"></i>
+        <button class="btn-primary rounded text-white px-7 py-2">Get Started</button>
+        <button class="text-primary-500 space-x-1 hover:scale-110 transition-all">
+          <i class="fa fa-play hover:scale-110"></i>
           Watch the Video
         </button>
       </div>
@@ -119,16 +120,13 @@
           </p>
         </div>
       </div>
-      <a
-        href="#"
-        class="btn-primary w-44 h-14 flex items-center justify-center mx-auto max-sm:flex"
-      >
+      <a href="#" class="btn-primary w-44 h-14 flex items-center justify-center mx-auto max-sm:flex">
         Sign Up Now
       </a>
     </div>
   </main>
-  
-  <!-- ! Footer -->
+
+  <!--! Footer -->
   <footer class="container py-10 max-sm:px-5">
     <!-- ? Grid block -->
     <div class="grid grid-cols-4 max-lg:grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 gap-x-3 gap-y-6">

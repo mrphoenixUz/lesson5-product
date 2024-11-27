@@ -11,6 +11,7 @@
 @layer components {
   .btn-primary {
     @apply px-7 bg-primary-500 text-white rounded py-2 font-bold;
+    @apply hover:opacity-80;
   }
 }
 
