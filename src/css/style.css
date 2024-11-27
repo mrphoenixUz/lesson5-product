@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl font-bold;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-7 bg-primary-500 text-white rounded py-2 font-bold;
+  }
+}
+
+.hero {
+  background: url(../images/hero.png) no-repeat center right / 600px;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode a {
+  color: #bb86fc;
+}
+
+body.dark-mode .btn-primary {
+  background-color: #bb86fc;
+  border-color: #bb86fc;
+  color: #f1f1f1;
+  ;
+}
+
+body.dark-mode input {
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+  border-color: #333;
+}
+
+body.dark-mode footer {
+  background-color: #1f1f1f;
+}
+
+body.dark-mode .text-primary-500 {
+  color: #bb86fc;
+}
+
+body.dark-mode .bg-primary-500 {
+  background-color: #bb86fc;
+}
+
+body.dark-mode .bg-primary-200 {
+  background-color: #333;
+}
